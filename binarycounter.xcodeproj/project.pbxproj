@@ -14,6 +14,8 @@
 		F965438020101E0600605582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F965437E20101E0600605582 /* LaunchScreen.storyboard */; };
 		F965438B20101E0600605582 /* binarycounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F965438A20101E0600605582 /* binarycounterTests.swift */; };
 		F965439620101E0600605582 /* binarycounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F965439520101E0600605582 /* binarycounterUITests.swift */; };
+		F96543A420101EBD00605582 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96543A320101EBD00605582 /* CustomTableViewCell.swift */; };
+		F96543A620102A4900605582 /* CustomCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96543A520102A4900605582 /* CustomCellDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F965439120101E0600605582 /* binarycounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binarycounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F965439520101E0600605582 /* binarycounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binarycounterUITests.swift; sourceTree = "<group>"; };
 		F965439720101E0600605582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96543A320101EBD00605582 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F96543A520102A4900605582 /* CustomCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				F965437520101E0600605582 /* AppDelegate.swift */,
 				F965437720101E0600605582 /* ViewController.swift */,
+				F96543A320101EBD00605582 /* CustomTableViewCell.swift */,
+				F96543A520102A4900605582 /* CustomCellDelegate.swift */,
 				F965437920101E0600605582 /* Main.storyboard */,
 				F965437C20101E0600605582 /* Assets.xcassets */,
 				F965437E20101E0600605582 /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F96543A420101EBD00605582 /* CustomTableViewCell.swift in Sources */,
+				F96543A620102A4900605582 /* CustomCellDelegate.swift in Sources */,
 				F965437820101E0600605582 /* ViewController.swift in Sources */,
 				F965437620101E0600605582 /* AppDelegate.swift in Sources */,
 			);
